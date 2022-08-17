@@ -3,8 +3,14 @@
         <etiya-navbar></etiya-navbar>
     </header>
 
-    <main class="flex-fill">
-        <ng-content></ng-content>
+    <main class="flex-fill  w-100">
+        <div class="container mt-5">
+            <router-outlet></router-outlet>
+        </div>
     </main>
+
+    <footer>
+        <etiya-footer></etiya-footer>
+    </footer>
 
 </div>
