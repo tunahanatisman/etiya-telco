@@ -5,7 +5,7 @@ import {
   HttpEvent,
   HttpInterceptor
 } from '@angular/common/http';
-import { finalize, Observable } from 'rxjs';import { OverlayLoadingService } from '../../services/overlay-loading.service';
+import { finalize, Observable } from 'rxjs';import { OverlayLoadingService } from '../../services/overlay-loading/overlay-loading.service';
 ;
 
 @Injectable()
