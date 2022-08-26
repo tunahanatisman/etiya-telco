@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { OverlayLoadingService } from '../../services/overlay-loading/overlay-loading.service';
+import { OverlayLoadingService } from '../../services/overlay-loading.service';
 
 @Component({
   selector: 'etiya-overlay-loading',
